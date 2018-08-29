@@ -66,9 +66,8 @@ var Engine = (function(global) {
         /* Use the browser's requestAnimationFrame function to call this
          * function again as soon as the browser is able to draw another frame.
          */
-
-         // this part is inspired from Mathew Cranford's blog because I had in mind the 
-         // freezing of the image when the player reaches the end;
+        
+         // freezing of the image when the player reaches the end and add the modal in Jquery way;
         if (player.won===true) {
             win.cancelAnimationFrame(id);
             $('.text').html('Nice! You helped the little girl to find her heart back.<br> PS: Did you notice that the stones tricked you a bit? ...were not that tall to protect the girl :(  <br><button class="again">Try it again!</button>');
@@ -78,8 +77,8 @@ var Engine = (function(global) {
                 player.reset();
                 player.won=false;
                 win.requestAnimationFrame(main);
-        });
-    }
+            });
+        }
         else
         id= win.requestAnimationFrame(main);
     }
@@ -186,18 +185,15 @@ var Engine = (function(global) {
         allRocks.forEach(function(rock) {
             rock.render();
         });
-    Her_heart.render();
-    player.render();
-   
-    // rock2.render();
+        Her_heart.render();
+        player.render();
     }
 
     /* This function does nothing but it could have been a good place to
      * handle game reset states - maybe a new game menu or a game over screen
      * those sorts of things. It's only called once by the init() method.
      */
-    function reset() {
-       
+    function reset() {   
         // noop
     }
 

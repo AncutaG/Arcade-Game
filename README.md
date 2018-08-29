@@ -19,8 +19,8 @@ Good luck, it's not that harsh!
 # Author
 Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (WEB DEV FEND Nanodegree).
 
-## Note:
-There is some intution that helped me a lot to remain with a beter understanding, structure, beyond my own creativity and how I thought the logic of some elements and [this helped me a lot :) ](https://matthewcranford.com/?s=Arcade).
+## Notes and referrences:
+There is some intution that helped me a lot to remain with a better understanding, structure, beyond my own creativity and how I thought the logic of some elements and [this helped me a lot :) ](https://matthewcranford.com/?s=Arcade).
 
 
 

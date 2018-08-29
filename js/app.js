@@ -88,7 +88,6 @@ class Rocks {
         ctx.drawImage (Resources.get(this.sprite), this.x, this.y);
     } 
 };
-
 const rock1=new Rocks(101,10); 
 const rock2=new Rocks(202,10);
 const rock3=new Rocks(0,250);
@@ -163,7 +162,6 @@ class Hero {
       this.x=this.x_start;
       this.y=this.y_start;   
 }
-
 };
 // I need to return an object 
 // and later on NEW from this function(class)
@@ -181,8 +179,7 @@ class Girl_Heart {
         ctx.drawImage (Resources.get(this.sprite), this.x, this.y);
     }
 }
-const Her_heart=new Girl_Heart();  
-    
+const Her_heart=new Girl_Heart();      
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {

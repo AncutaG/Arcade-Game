@@ -6,10 +6,12 @@ The game will be launched directly.Maybe later on for future improvement it coul
 
 # How to play and why
 All you need to know is that the arrow keys will help you to move the "Hero-girl".
-- Just pay attention to your enemies: the bugs and *perhaps some stones*... you'll need to figure it out which ones.
+- Just pay attention to your enemies: the bugs and... the stones that practically will block the girl in some parts... you'll need to figure it out how to move the your hero.
 - When the bug will hit the girl this will bring her to the intial position.
 - The final purpose is to go where the girl's heart is and help her to take her heart back.
 Good luck, it's not that harsh! 
+### some small detail: 
+there will a bug that is on purpose there to trick a bit the hero and create some small illusion.It's a bug which is not that close to the girl :)
 
 # To develop the game
 - There were used most of the existent pieces of code, the objects are found in app.js  file with their properties and methods.

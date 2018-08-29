@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+.layer {
+    font-size: 21px;
+    font-weight:bold;
+    background: rgba(255,255, 255, 1);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 150px;
+}
+
+.text {
+    color: rgb(2, 69, 100);
+}
+
+button {
+    font: 20px Roboto-Bold;
+    font-weight:bold;
+    background: rgb(201, 190, 96);
+    border: none;
+    color: rgb(8, 86, 122);
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 2px;
+    border-radius: 5px;
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .40s ease-in-out;
+    -o-transition: all .40s ease-in-out;
+    transition: all .40s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    animation: pulseSecond 7s infinite;
+}
+ 
+  @keyframes pulseSecond {
+    0% {
+        box-shadow: 0px -20px 150px 20px #4e68b4;
+    }
+    100% {
+        box-shadow: 1px 20px 200px 18px #b7e023;
+    }
+  }
+  

@@ -1,7 +1,6 @@
 // Enemies our player must avoid
 // var Enemy = function() --> I changed a bit this form already given {
-   
-
+  
 // Variables applied to each of our instances go here,
     // we've provided one for you to get started
 
@@ -70,12 +69,9 @@ Enemy.prototype.update = function(dt) {
 // This class requires an update(), render() and
 // a handleInput() method.
 
-
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-
-
 
 //I added another kind of enemy but separatelly because of different values for properties 
 class Rocks {
@@ -142,7 +138,7 @@ class Hero {
     }
     //  the collision could happen just a bit earlier so make the step smaller to be prompt
     update() {
-    for (let enemy of allEnemies) {
+      for (let enemy of allEnemies) {
         if(this.y===enemy.y) {
             if(enemy.x + enemy.step_cell/2 >=this.x 
                 && this.x+this.x_step/2>=enemy .x) {
@@ -152,7 +148,7 @@ class Hero {
          }      
     }
     //here add the blocking because of the rocks
-    for(let rock of allRocks) {
+      for(let rock of allRocks) {
         if(this.x===rock.x) {
             if(this.y+this.y_step/2>=rock.y &&  rock.y + rock.y_step >=this.y) {
                 this.y=this.y+83;
@@ -163,18 +159,15 @@ class Hero {
          this.won=true;
     }  
 }
-   
-    reset() {
+  reset() {
     this.x=this.x_start;
     this.y=this.y_start;   
-}
-
+ }
 };
 // I need to return an object 
 // and later on NEW from this function(class)
 // will help me to store the class into player object;
 const player=new Hero();  
-
 class Girl_Heart {
     constructor() {
         this.sprite='images/Heart.png';
@@ -188,10 +181,7 @@ class Girl_Heart {
     }
 }
 const Her_heart=new Girl_Heart();  
-    
-
-
-
+  
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {
@@ -201,6 +191,5 @@ document.addEventListener('keyup', function(e) {
         39: 'right',
         40: 'down'
     };
-
-    player.handleInput(allowedKeys[e.keyCode]);
+ player.handleInput(allowedKeys[e.keyCode]);
 });

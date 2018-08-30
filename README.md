@@ -19,6 +19,13 @@ It's a bug which is not that close to the girl :) and won't "reset" her  to the 
 - The other two files engine.js and resources.js manage the game loop.
 - Not very much to say about styling and html files, because the main focus was to learn more on JS object orientated programming.
 
+# Running the code game:
+
+The game could be easily run by opening the index.html file into de console, the rest of the JS scripts are linked within the html file.
+Or one can access the previw  [right here :)](https://htmlpreview.github.io/?https://github.com/AncutaG/Arcade-Game/blob/master/index.html). 
+
+Have fun !
+
 # Author
 Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (WEB DEV FEND Nanodegree).
 

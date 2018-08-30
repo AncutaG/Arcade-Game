@@ -22,7 +22,7 @@ It's a bug which is not that close to the girl :) and won't "reset" her  to the 
 # Running the code game:
 
 The game could be easily run by opening the index.html file into de console, the rest of the JS scripts are linked within the html file.
-Or one can access the previw  [right here :)](https://htmlpreview.github.io/?https://github.com/AncutaG/Arcade-Game/blob/master/index.html). 
+Also one can access the preview  [right here :)](https://htmlpreview.github.io/?https://github.com/AncutaG/Arcade-Game/blob/master/index.html). 
 
 Have fun !
 
